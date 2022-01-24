@@ -99,7 +99,7 @@ The environment variable that is set when using the `track` `internalsharing`
 ## Example usage
 
 ```yaml
-uses: r0adkll/upload-google-play@v1
+uses: aimed-labs/upload-google-play@v1
 with:
   serviceAccountJson: ${{ SERVICE_ACCOUNT_JSON }}
   packageName: com.example.MyApp
@@ -113,7 +113,7 @@ with:
 
 Using glob to get release files
 ```yaml
-uses: r0adkll/upload-google-play@v1
+uses: aimed-labs/upload-google-play@v1
 with:
   serviceAccountJson: ${{ SERVICE_ACCOUNT_JSON }}
   packageName: com.example.MyApp
